@@ -1,0 +1,21 @@
+.editable-content {
+    height: auto !important;
+}
+
+.editable-content:focus {
+    border: none;
+    outline: none;
+}
+
+.rct-item-content:focus {
+    border: none;
+    outline: none;
+}
+
+.delete-icon {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    cursor: pointer;
+    display: inline-flex;
+}

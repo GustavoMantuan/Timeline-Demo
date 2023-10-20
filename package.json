@@ -1,7 +1,7 @@
 {
   "name": "timeline-demo-moving-and-resizing-forked",
   "version": "0.0.15",
-  "description": null,
+  "description": "Gustavo - Timeline",
   "keywords": [],
   "main": "index.js",
   "dependencies": {

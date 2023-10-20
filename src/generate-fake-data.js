@@ -30,14 +30,13 @@ export default function(groupCount = 30, itemCount = 1000, daysInPast = 30) {
       title: faker.hacker.phrase(),
       start: startValue,
       end: endValue,
-      // canMove: startValue > new Date().getTime(),
-      // canResize: 'both',
       className:
         moment(startDate).day() === 6 || moment(startDate).day() === 0
           ? "item-weekend"
           : "",
       itemProps: {
-        "data-tip": faker.hacker.phrase()
+        "data-tip": faker.hacker.phrase(),
+        selected: false
       }
     });
   }
